@@ -1,6 +1,6 @@
-# Cinematic Movie Ratings
+# Cinematic Movie Application
 
-Cinematic is a movie review application.
+Cinematic is a movie application based off the popular movie site Rotten Tomatoes. Cinematic allows user to search for popular titles and view more movie detilas including trailers. 
 
 
 ## About
@@ -28,10 +28,10 @@ Scroll further down the page to view all movies available. Click on any movie to
 
 ## Technologies Used
 
-* React
-* Router
-* CSS
-* Cypress
+![](https://img.shields.io/badge/<Code>-<ReactJS>-informational?style=flat&logo=<LOGO_NAME>&logoColor=white&color=2bbc8a)
+![](https://img.shields.io/badge/<Code>-<Router>-informational?style=flat&logo=<LOGO_NAME>&logoColor=white&color=2bbc8a)
+![](https://img.shields.io/badge/<Styes>-<CSS>-informational?style=flat&logo=<LOGO_NAME>&logoColor=white&color=2bbc8a)
+![](https://img.shields.io/badge/<Testing>-<Cypress>-informational?style=flat&logo=<LOGO_NAME>&logoColor=white&color=2bbc8a)
 
 ## Future Additions
 
