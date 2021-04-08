@@ -1,4 +1,4 @@
-![movie-reel-icon](./cinematic/Rancid-Tomatillos/src/search.png)
+![movie-reel-icon](./Rancid-Tomatillos/src/search.png)
 
 
 
