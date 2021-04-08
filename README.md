@@ -2,7 +2,7 @@
 
 <p align=“center”>
   <a>
-    <img src=“Cinematic/src/logo.svg” alt=“Logo” width=“80” height=“80">
+    <img src=“./Cinematic/src/logo.svg” alt=“Logo” width=“80” height=“80">
   </a>
   <h3 align=“center”>What’s Cookin</h3>
   <p align=“center”>
