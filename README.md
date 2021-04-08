@@ -1,6 +1,23 @@
-[![Contributors][contributors-shield]][contributors-url]
+<!--- [![Contributors][contributors-shield]][contributors-url]
 [![Issues][issues-shield]][issues-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
+---!>
+
+<br />
+<p align=“center”>
+  <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+
+  <h3 align=“center”>What’s Cookin</h3>
+
+  <p align=“center”>
+    <br />
+    <a href=“https://github.com/jordy1611/whats-cookin-JS-JS-KS”><strong>Explore the docs »</strong></a>
+    <br />
+    <a href=“https://github.com/jordy1611/whats-cookin-JS-JS-KS/issues”>Report Bug</a>
+    ·
+    <a href=“https://github.com/jordy1611/whats-cookin-JS-JS-KS/issues”>Request Feature</a>
+  </p>
+</p>
 
 # Cinematic Movie Application
 
@@ -61,11 +78,13 @@ To view breakdown of steps taken, visit: [the project board](https://trello.com/
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
+<!--
 [contributors-shield]: https://img.shields.io/github/contributors/PaigeVannelli/Cinematic
 [contributors-url]: https://github.com/PaigeVannelli/Cinematic/graphs/contributors
 [issues-shield]: https://img.shields.io/github/issues/PaigeVannelli/Cinematic
 [issues-url]: https://trello.com/b/TnDKRO4F/rancid-tomatillos-kanban
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
+-->
 
 
 <!-- [linkedin-url]: https://linkedin.com/in/linkHere -->
