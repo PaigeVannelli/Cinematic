@@ -8,7 +8,14 @@ Cinematic is a movie application based off the popular movie site Rotten Tomatoe
 * We were given full creative control with the project's design. 
 * Code was written while being introduced to ReactJS, Router, and Cypress testing. 
 
-## Installation
+## Setup & Installation 
+
+To use this app:
+
+Fork this repository 
+
+Clone it down
+
 Install all required dependencies
 
 `npm install`
