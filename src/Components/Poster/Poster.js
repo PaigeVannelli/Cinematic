@@ -6,7 +6,7 @@ const Poster = (props) => {
     return (
         <Link to={`/${props.id}`}>
             <article className='poster' onClick={() => props.displayMovieDetails(props.id)}>
-                <img className='poster-image' src={props.image} />
+                <img className='poster-image' src={props.image} alt={props.title}/>
             </article>
         </Link>
     )

@@ -1,4 +1,4 @@
-import movieData from '../../movieData.js';
+
 import React, { Component } from 'react';
 import Movies from '../Movies/Movies.js'
 import MovieDetails from '../MovieDetails/MovieDetails.js'
@@ -8,7 +8,6 @@ import './App.css'
 import logo from '../../logo.svg'
 import search from '../../search.png'
 import {
-  BrowserRouter as Router,
   Switch,
   Route,
   Link
@@ -93,14 +92,19 @@ class App extends Component {
 
  displaySearchBar = () => {
     if (this.state.view === 'mainPage') {
-      return( <form>
+      return( 
+      <form>
         <input type='text' 
-      className='search-bar' 
-      value={this.state.searchValue}
-      placeholder='Search for a movie'
-      onChange={(event) => this.handleChange(event)}>
-      </input>
-      <button className='search-button' onClick={this.filterByTitle}><img className='search-logo' src={search}></img></button>
+        className='search-bar' 
+        value={this.state.searchValue}
+        placeholder='Search for a movie'
+        onChange={(event) => this.handleChange(event)}>
+        </input>
+        <button 
+        className='search-button' 
+        onClick={this.filterByTitle}>
+          <img className='search-logo' src={search} alt='search-logo'></img>
+        </button>
       </form>
       )
     }
@@ -158,7 +162,10 @@ class App extends Component {
             src={logo} 
             className='movie-reel-logo' 
             data-cy='home-button'
-            />Cinematic</button>
+            alt='movie-reel-logo'
+            />
+            Cinematic
+            </button>
           {this.displaySearchBar()}
         </nav>
         </Link>
