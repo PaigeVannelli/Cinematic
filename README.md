@@ -1,4 +1,4 @@
-![movie-reel-icon](./src/search.png)
+![movie-reel-icon](./src/logo.svg)
 
 
 
