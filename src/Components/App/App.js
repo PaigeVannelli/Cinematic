@@ -53,10 +53,6 @@ class App extends Component {
     })
   }
 
-  handleChange = (event) => {
-    this.setState({searchValue: event.target.value})
-  }
-
   filterByTitle = () => {
     this.setSearchValue()
     this.filterMovies()
