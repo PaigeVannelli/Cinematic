@@ -41,19 +41,16 @@ class App extends Component {
   }
 
   chooseBannerMovie = () => {
-    // pick a random movie
-    //set state for chosen random movie
     const randomMovie = this.state.movieData[Math.floor(Math.random() * this.state.movieData.length)];
-    this.setState(prevState => ({
+    this.setState({
       randomChosenMovie: {                
-          ...prevState.randomChosenMovie,
           id: randomMovie.id,    
           title: randomMovie.title,
           dateReleased: randomMovie.release_date,
           rating: randomMovie.average_rating,
           backgroundImage: randomMovie.backdrop_path,
       }
-    }))
+    })
   }
 
   handleChange = (event) => {
