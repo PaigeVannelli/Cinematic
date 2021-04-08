@@ -87,7 +87,8 @@ class App extends Component {
     if (this.state.view === 'mainPage') {
       return( 
       <form>
-        <input type='text' 
+        <input 
+        type='text' 
         className='search-bar' 
         value={this.state.searchValue}
         placeholder='Search for a movie'
