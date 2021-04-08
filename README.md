@@ -1,4 +1,4 @@
-![movie-reel-icon](./Rancid-Tomatillos/src/search.png)
+![movie-reel-icon](./Cinematic/src/search.png)
 
 
 # Cinematic Movie Application
