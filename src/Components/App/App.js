@@ -166,8 +166,8 @@ class App extends Component {
           {this.displaySearchBar()}
         </nav>
         </Link>
-        {this.showMovieBanner()}
-        {this.checkForErrors()}
+          {this.showMovieBanner()}
+          {this.checkForErrors()}
         <Switch>
           <Route
             exact path='/'
