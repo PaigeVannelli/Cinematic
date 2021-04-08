@@ -3,21 +3,6 @@
 [![LinkedIn][linkedin-shield]][linkedin-url]
 ---!>
 
-<br />
-<p align=“center”>
-  <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
-
-  <h3 align=“center”>What’s Cookin</h3>
-
-  <p align=“center”>
-    <br />
-    <a href=“https://github.com/jordy1611/whats-cookin-JS-JS-KS”><strong>Explore the docs »</strong></a>
-    <br />
-    <a href=“https://github.com/jordy1611/whats-cookin-JS-JS-KS/issues”>Report Bug</a>
-    ·
-    <a href=“https://github.com/jordy1611/whats-cookin-JS-JS-KS/issues”>Request Feature</a>
-  </p>
-</p>
 
 # Cinematic Movie Application
 
