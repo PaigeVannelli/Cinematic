@@ -28,7 +28,7 @@ Run the app on your local host
 ## Usage
 On page load you will be greeted with a large movie banner that displays a movie title, release date, and rating of a randomly chosen movie. Below is a poster view of all the fetched movies from the movies API. Clicking on the banner or any of the posters will take you to the movies detailed page.
 
-![page load](https://gyazo.com/02e6ae89c516e217a05f191a5294a04e.gif)
+![page load](./src/cinematictest.gif)
 
 Scroll further down the page to view all movies available. Click on any movie to view its detailed page view. Clicking on the home button will take you back to the main page display.
 
