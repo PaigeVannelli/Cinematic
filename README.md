@@ -1,3 +1,8 @@
+[![Contributors][contributors-shield]][contributors-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
+
 # Cinematic Movie Application
 
 Cinematic is a movie application based off the popular movie site Rotten Tomatoes. Cinematic allows user to search for popular titles and view more movie detilas including trailers. 
@@ -54,3 +59,17 @@ To view breakdown of steps taken, visit: [the project board](https://trello.com/
 [Paige Vannelli](github.com/paigevannelli)
 
 [Josh Aragon](github.com/josharagon)
+
+<!-- MARKDOWN LINKS & IMAGES -->
+
+[contributors-shield]: https://img.shields.io/github/contributors/PaigeVannelli/Cinematic
+[contributors-url]: https://github.com/PaigeVannelli/Cinematic/graphs/contributors
+[issues-shield]: https://img.shields.io/github/issues/PaigeVannelli/Cinematic
+[issues-url]: https://trello.com/b/TnDKRO4F/rancid-tomatillos-kanban
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
+
+
+<!-- [linkedin-url]: https://linkedin.com/in/linkHere -->
+[linkedin-url]: https://www.linkedin.com/in/paigevannelli/
+
+<!-- [product-screenshot]: images/screenshot.png -->
