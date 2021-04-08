@@ -1,21 +1,3 @@
-![movie-reel-icon](./src/logo.svg)
-
-<p align=“center”>
-  <a>
-    <img src=“./Cinematic/src/logo.svg” alt=“Logo” width=“80” height=“80">
-  </a>
-  <h3 align=“center”>What’s Cookin</h3>
-  <p align=“center”>
-    <br />
-    <a href=“https://github.com/jordy1611/whats-cookin-JS-JS-KS”><strong>Explore the docs »</strong></a>
-    <br />
-    <a href=“https://github.com/jordy1611/whats-cookin-JS-JS-KS/issues”>Report Bug</a>
-    ·
-    <a href=“https://github.com/jordy1611/whats-cookin-JS-JS-KS/issues”>Request Feature</a>
-  </p>
-</p>
-
-
 
 # Cinematic Movie Application
 
