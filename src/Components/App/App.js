@@ -44,11 +44,11 @@ class App extends Component {
     const randomMovie = this.state.movieData[Math.floor(Math.random() * this.state.movieData.length)];
     this.setState({
       randomChosenMovie: {                
-          id: randomMovie.id,    
-          title: randomMovie.title,
-          dateReleased: randomMovie.release_date,
-          rating: randomMovie.average_rating,
-          backgroundImage: randomMovie.backdrop_path,
+        id: randomMovie.id,    
+        title: randomMovie.title,
+        dateReleased: randomMovie.release_date,
+        rating: randomMovie.average_rating,
+        backgroundImage: randomMovie.backdrop_path,
       }
     })
   }
@@ -74,8 +74,8 @@ class App extends Component {
     if (this.state.searchValue) {
       this.setState({movieData: filteredMovies})
     } else {
-        const allMovies = this.state.displayedMovies
-        this.setState({movieData: allMovies})
+      const allMovies = this.state.displayedMovies
+      this.setState({movieData: allMovies})
     }
   }
   
@@ -83,23 +83,25 @@ class App extends Component {
     this.setState({searchValue: event.target.value})
   }
 
- displaySearchBar = () => {
+  displaySearchBar = () => {
     if (this.state.view === 'mainPage') {
       return( 
-      <form>
-        <input 
-        type='text' 
-        className='search-bar' 
-        value={this.state.searchValue}
-        placeholder='Search for a movie'
-        onChange={(event) => this.handleChange(event)}>
-        </input>
-        <button 
-        className='search-button' 
-        onClick={this.filterByTitle}>
-          <img className='search-logo' src={search} alt='search-logo'></img>
-        </button>
-      </form>
+        <form>
+          <input 
+            type='text' 
+            className='search-bar' 
+            value={this.state.searchValue}
+            placeholder='Search for a movie'
+            onChange={(event) => this.handleChange(event)}
+          >
+          </input>
+          <button 
+            className='search-button' 
+            onClick={this.filterByTitle}
+          >
+            <img className='search-logo' src={search} alt='search-logo'></img>
+          </button>
+        </form>
       )
     }
   }
@@ -117,7 +119,7 @@ class App extends Component {
   goToMain = () => {
     this.setState({ view: 'mainPage', currentMovieId: 0, searchValue: '', searchValueInput: '' })
     const allMovies = this.state.displayedMovies
-    this.setState(prevState => ({movieData: allMovies}))
+    this.setState(() => ({movieData: allMovies}))
     this.chooseBannerMovie()
   }
 
@@ -128,15 +130,16 @@ class App extends Component {
   showMovieBanner = () => {
     if(this.state.view === 'mainPage') {
       return (
-      <Link to={`/${this.state.randomChosenMovie.id}`}>
-        <MovieBanner
-        displayMovieDetails={this.displayMovieDetails}
-        id={this.state.randomChosenMovie.id}
-        title={this.state.randomChosenMovie.title}
-        dateReleased={this.state.randomChosenMovie.dateReleased}
-        rating={this.state.randomChosenMovie.rating}
-        backgroundImage={this.state.randomChosenMovie.backgroundImage}/>
-      </Link>
+        <Link to={`/${this.state.randomChosenMovie.id}`}>
+          <MovieBanner
+            displayMovieDetails={this.displayMovieDetails}
+            id={this.state.randomChosenMovie.id}
+            title={this.state.randomChosenMovie.title}
+            dateReleased={this.state.randomChosenMovie.dateReleased}
+            rating={this.state.randomChosenMovie.rating}
+            backgroundImage={this.state.randomChosenMovie.backgroundImage}
+          />
+        </Link>
       )
     }
   }
@@ -145,21 +148,21 @@ class App extends Component {
     return (
       <main className='main-page'>
         <Link to='/'>
-        <nav className='nav'
-         alt='movie-reel-logo'
-        style={this.state.view === 'mainPage' ? {position:'unset'} : {position:'fixed'}}
-         >
+        <nav 
+          className='nav'
+          alt='movie-reel-logo'
+          style={this.state.view === 'mainPage' ? {position:'unset'} : {position:'fixed'}}
+        >
           <button 
-          className='main-logo' 
-          onClick={this.goToMain}>
+            className='main-logo' 
+            onClick={this.goToMain}
+          >
             <img 
-            src={logo} 
-            className='movie-reel-logo' 
-            data-cy='home-button'
-            alt='movie-reel-logo'
-            />
-            Cinematic
-            </button>
+              src={logo} 
+              className='movie-reel-logo' 
+              data-cy='home-button'
+              alt='movie-reel-logo'
+            />Cinematic</button>
           {this.displaySearchBar()}
         </nav>
         </Link>
