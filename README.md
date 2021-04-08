@@ -1,4 +1,4 @@
-![movie-reel-icon](./src/logo.svg)
+![movie-reel-icon](./src/logo.svg =20x20)
 
 
 
